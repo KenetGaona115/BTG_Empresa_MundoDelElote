@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Cavalier;
+    src: url("Cavalier.ttf");
+}
+
+@font-face {
+    font-family: Florilane;
+    src: url("Florilane\ Cardillac.ttf");
+}
+
+@font-face {
+    font-family: Basic;
+    src: url("Basic\ Light.ttf");
+}
+
+body {
+    background-color: seashell;
+    margin: 0px;
+}
+
+h1 {
+    font-family: Florilane;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 70px;
+}
+
+h3 {
+    font-family: Florilane;
+    margin-bottom: 0px;
+}
+
+.desc p {
+    font-family: Basic;
+
+}
+
+.containerText {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.navbar ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(230,207,191,255);
+  }
+  
+  .navbar li {
+    float: right;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: rgb(99,66,46);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: Cavalier;
+  }
+  
+  .navbar li a:hover {
+    background-color: seashell;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(230,207,191,255);
+    color: rgb(99,66,46);
+    text-align: center;
+    font-family: Cavalier;
+  }
+
